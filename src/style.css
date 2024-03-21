@@ -63,3 +63,17 @@ header nav div:last-child{
     padding: 0 15px;
     font: 1rem/1.5rem "Overpass Mono", monospace;
 }
+
+/** About Us **/
+
+.aboutPage img{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.aboutPage p{
+    padding: 15px;
+    font: 1rem/1.5rem "Overpass Mono", monospace;
+}
