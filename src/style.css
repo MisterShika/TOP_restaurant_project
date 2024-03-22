@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Overpass+Mono:wght@300..700&display=swap');
 
+
+/** Generic Styling **/
+
 body{
     background: url(img/bg.jpg) center/cover no-repeat fixed;
 }
@@ -14,9 +17,6 @@ body{
     margin: 0 auto;
     background: white;
 }
-
-/** Generic Styling **/
-
 h1{
     padding: 15px 0;
     text-align: center;
@@ -30,10 +30,18 @@ header nav{
 }
 header nav div{
     flex-grow: 1;
+    padding: 10px 0;
     text-align: center;
     cursor: pointer;
     border: 1px solid black;
     border-right: 0;
+    font: 1.25rem/1.5rem "IBM Plex Mono", monospace;
+    background: white;
+    color: black;
+}
+header nav div:hover{
+    background: black;
+    color: white;
 }
 header nav div:last-child{
     border-right: 1px solid black;
@@ -76,4 +84,36 @@ header nav div:last-child{
 .aboutPage p{
     padding: 15px;
     font: 1rem/1.5rem "Overpass Mono", monospace;
+}
+
+/** Menu Page **/
+
+.menuPage h2{
+    padding: 20px 0;
+    text-align: center;
+    font: 1.25rem/1.5rem "IBM Plex Mono", monospace;
+    font-weight: bold;
+}
+.menuPage p{
+    padding: 15px;
+    font: 1.15rem/1.5rem "Overpass Mono", monospace;
+    text-align:center;
+}
+.menuPage li{
+    display: flex;
+    padding: 10px 0;
+}
+.menuPage li div{
+    max-width: 150px;
+}
+.menuPage li img{
+    width: 100%;
+    height: auto;
+}
+.menuPage li span{
+    display: flex;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    font: 1rem/1.75rem "Overpass Mono", monospace;
 }

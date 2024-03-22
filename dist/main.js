@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! img/bg.jpg */ \"./src/img/bg.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Overpass+Mono:wght@300..700&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body{\n    background: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) center/cover no-repeat fixed;\n}\n#mainContainer{\n    min-height: 100vh;\n}\n#content{\n    padding: 0 5px;\n}\n#mainContainer{\n    width: 800px;\n    margin: 0 auto;\n    background: white;\n}\n\n/** Generic Styling **/\n\nh1{\n    padding: 15px 0;\n    text-align: center;\n    font: 4rem/4.25rem \"IBM Plex Mono\", monospace;\n}\n\n/** Menu **/\n\nheader nav{\n    display: flex;\n}\nheader nav div{\n    flex-grow: 1;\n    text-align: center;\n    cursor: pointer;\n    border: 1px solid black;\n    border-right: 0;\n}\nheader nav div:last-child{\n    border-right: 1px solid black;\n}\n\n/** Home **/\n\n.homePage h2{\n    padding: 20px 0;\n    text-align: center;\n    font: 1.25rem/1.5rem \"IBM Plex Mono\", monospace;\n    font-weight: bold;\n}\n.homePage img{\n    width: 100%; \n    height: auto;\n}\n.homePage .homeHolder{\n    display: flex;\n    padding: 10px 0;\n    flex-direction: row;\n}\n.homePage .homeHolder>div{\n    flex: 1;\n}\n.homePage .textHolder{\n    padding: 0 15px;\n    font: 1rem/1.5rem \"Overpass Mono\", monospace;\n}\n\n/** About Us **/\n\n.aboutPage img{\n    display: block;\n    width: 100%;\n    height: auto;\n    max-width: 400px;\n    margin: 0 auto;\n}\n.aboutPage p{\n    padding: 15px;\n    font: 1rem/1.5rem \"Overpass Mono\", monospace;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://top_restaurant_project/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! img/bg.jpg */ \"./src/img/bg.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Overpass+Mono:wght@300..700&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/** Generic Styling **/\n\nbody{\n    background: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) center/cover no-repeat fixed;\n}\n#mainContainer{\n    min-height: 100vh;\n}\n#content{\n    padding: 0 5px;\n}\n#mainContainer{\n    width: 800px;\n    margin: 0 auto;\n    background: white;\n}\nh1{\n    padding: 15px 0;\n    text-align: center;\n    font: 4rem/4.25rem \"IBM Plex Mono\", monospace;\n}\n\n/** Menu **/\n\nheader nav{\n    display: flex;\n}\nheader nav div{\n    flex-grow: 1;\n    padding: 10px 0;\n    text-align: center;\n    cursor: pointer;\n    border: 1px solid black;\n    border-right: 0;\n    font: 1.25rem/1.5rem \"IBM Plex Mono\", monospace;\n    background: white;\n    color: black;\n}\nheader nav div:hover{\n    background: black;\n    color: white;\n}\nheader nav div:last-child{\n    border-right: 1px solid black;\n}\n\n/** Home **/\n\n.homePage h2{\n    padding: 20px 0;\n    text-align: center;\n    font: 1.25rem/1.5rem \"IBM Plex Mono\", monospace;\n    font-weight: bold;\n}\n.homePage img{\n    width: 100%; \n    height: auto;\n}\n.homePage .homeHolder{\n    display: flex;\n    padding: 10px 0;\n    flex-direction: row;\n}\n.homePage .homeHolder>div{\n    flex: 1;\n}\n.homePage .textHolder{\n    padding: 0 15px;\n    font: 1rem/1.5rem \"Overpass Mono\", monospace;\n}\n\n/** About Us **/\n\n.aboutPage img{\n    display: block;\n    width: 100%;\n    height: auto;\n    max-width: 400px;\n    margin: 0 auto;\n}\n.aboutPage p{\n    padding: 15px;\n    font: 1rem/1.5rem \"Overpass Mono\", monospace;\n}\n\n/** Menu Page **/\n\n.menuPage h2{\n    padding: 20px 0;\n    text-align: center;\n    font: 1.25rem/1.5rem \"IBM Plex Mono\", monospace;\n    font-weight: bold;\n}\n.menuPage p{\n    padding: 15px;\n    font: 1.15rem/1.5rem \"Overpass Mono\", monospace;\n    text-align:center;\n}\n.menuPage li{\n    display: flex;\n    padding: 10px 0;\n}\n.menuPage li div{\n    max-width: 150px;\n}\n.menuPage li img{\n    width: 100%;\n    height: auto;\n}\n.menuPage li span{\n    display: flex;\n    padding: 0 10px;\n    flex-wrap: wrap;\n    align-content: center;\n    font: 1rem/1.75rem \"Overpass Mono\", monospace;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://top_restaurant_project/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -166,7 +166,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction generateMenu () {\n    const menuPage = document.createElement('div');\n    menuPage.innerHTML = `\n        <p>Menu Test</p>\n    `;\n    return menuPage;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateMenu);\n\n//# sourceURL=webpack://top_restaurant_project/./src/generateMenu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _img_sticks_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/sticks.jpg */ \"./src/img/sticks.jpg\");\n/* harmony import */ var _img_wings_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/wings.jpg */ \"./src/img/wings.jpg\");\n/* harmony import */ var _img_cheeseburger_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/cheeseburger.jpg */ \"./src/img/cheeseburger.jpg\");\n/* harmony import */ var _img_salmon_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/salmon.jpg */ \"./src/img/salmon.jpg\");\n/* harmony import */ var _img_lemonade_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/lemonade.jpg */ \"./src/img/lemonade.jpg\");\n/* harmony import */ var _img_water_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/water.jpg */ \"./src/img/water.jpg\");\n\n\n\n\n\n\n\nfunction generateMenu () {\n    const menuPage = document.createElement('div');\n\n    const menuTitle = document.createElement('h1');\n    menuTitle.textContent = \"Menu\";\n\n    menuPage.appendChild(menuTitle);\n    \n    const listCreate = (listName) => {\n        let listObject = document.createElement('div');\n        let listTitle = document.createElement('h2');\n\n        listTitle.textContent = listName;\n\n        let theList = document.createElement('ul');\n\n        const addItem = (item, description, img) => {\n            let liItem = document.createElement('li');\n            let liDesc = document.createElement('span');\n            let imgContainer = document.createElement('div');\n            let liImg = document.createElement('img');\n\n            liImg.src = img;\n\n            liDesc.textContent = `${item}: ${description}`;\n\n            imgContainer.appendChild(liImg);\n            liItem.appendChild(imgContainer);\n            liItem.appendChild(liDesc);\n\n            theList.appendChild(liItem);\n        }\n\n        listObject.appendChild(listTitle);\n\n        listObject.appendChild(theList);\n\n        const printList = () => listObject;\n\n        return {printList, addItem};\n    }\n    \n    const shortDesc = document.createElement('p');\n    shortDesc.textContent = 'Based on common culinary knowledge and typical menu items found in many restaurants, here are some generic foods that our establishment offers:';\n    menuPage.appendChild(shortDesc);\n\n    const appetizers = listCreate('Appetizers');\n\n    appetizers.addItem('Mozzarella Sticks', 'Delight in elongated blobs of cheese encased in a crunchy outer shell, guaranteed to make your taste receptors sing.', _img_sticks_jpg__WEBPACK_IMPORTED_MODULE_0__);\n    appetizers.addItem('Chicken Wings', 'Enjoy our crispy bird appendages, served with a tangy liquid accompaniment for dipping.', _img_wings_jpg__WEBPACK_IMPORTED_MODULE_1__)\n\n    menuPage.appendChild(appetizers.printList());\n\n    const entrees = listCreate('Entrees');\n\n    entrees.addItem('Cheeseburger', 'Sink your teeth into a stack of greasy patties sandwiched between two pieces of carbohydrate-rich sponge, topped with melted dairy slices and various plant extracts.', _img_cheeseburger_jpg__WEBPACK_IMPORTED_MODULE_2__);\n    entrees.addItem('Grilled Salmon', 'Delve into a slab of aquatic vertebrate flesh, cooked to a rubbery consistency and served with a side of wilted foliage.', _img_salmon_jpg__WEBPACK_IMPORTED_MODULE_3__);\n\n    menuPage.appendChild(entrees.printList());\n\n    const drinks = listCreate('Drinks');\n\n    drinks.addItem('Lemonade', 'Taste the cloying sweetness of diluted citrus juice, served over a mound of ice cubes.', _img_lemonade_jpg__WEBPACK_IMPORTED_MODULE_4__);\n    drinks.addItem('Water', 'Hydrate yourself with a plastic vessel filled with tasteless liquid extracted from unknown sources.', _img_water_jpg__WEBPACK_IMPORTED_MODULE_5__)\n\n    menuPage.appendChild(drinks.printList());\n\n    menuPage.classList.add(\"menuPage\");\n\n    return menuPage;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateMenu);\n\n//# sourceURL=webpack://top_restaurant_project/./src/generateMenu.js?");
 
 /***/ }),
 
@@ -200,6 +200,26 @@ eval("module.exports = __webpack_require__.p + \"428ed06859c5d8e905b7.jpg\";\n\n
 
 /***/ }),
 
+/***/ "./src/img/cheeseburger.jpg":
+/*!**********************************!*\
+  !*** ./src/img/cheeseburger.jpg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6130baeae4fa76232062.jpg\";\n\n//# sourceURL=webpack://top_restaurant_project/./src/img/cheeseburger.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/lemonade.jpg":
+/*!******************************!*\
+  !*** ./src/img/lemonade.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4a3687e7efc1e5d38a69.jpg\";\n\n//# sourceURL=webpack://top_restaurant_project/./src/img/lemonade.jpg?");
+
+/***/ }),
+
 /***/ "./src/img/restaurant.jpg":
 /*!********************************!*\
   !*** ./src/img/restaurant.jpg ***!
@@ -207,6 +227,46 @@ eval("module.exports = __webpack_require__.p + \"428ed06859c5d8e905b7.jpg\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"09ad1dcd18981c57a5c1.jpg\";\n\n//# sourceURL=webpack://top_restaurant_project/./src/img/restaurant.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/salmon.jpg":
+/*!****************************!*\
+  !*** ./src/img/salmon.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"db1ddaa78d1b7df07ecb.jpg\";\n\n//# sourceURL=webpack://top_restaurant_project/./src/img/salmon.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/sticks.jpg":
+/*!****************************!*\
+  !*** ./src/img/sticks.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f5e0afe37a837242deab.jpg\";\n\n//# sourceURL=webpack://top_restaurant_project/./src/img/sticks.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/water.jpg":
+/*!***************************!*\
+  !*** ./src/img/water.jpg ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"5b3c824e76035318ca83.jpg\";\n\n//# sourceURL=webpack://top_restaurant_project/./src/img/water.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/wings.jpg":
+/*!***************************!*\
+  !*** ./src/img/wings.jpg ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ca648fbb21d46a402b63.jpg\";\n\n//# sourceURL=webpack://top_restaurant_project/./src/img/wings.jpg?");
 
 /***/ })
 
